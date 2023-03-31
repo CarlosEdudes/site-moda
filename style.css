@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(imagens/topo.jpg);
+    height: 450px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    background-position: left center;
+    background-size: cover;
+    
+}
+
+.navegação img {
+    position: relative;
+    left: 80px;
+    top: 15px;
+}
+
+.navegação ul{
+    text-align: right;
+    margin: 0;
+    position: relative;
+    top: -15px;
+    padding-right: 40px;
+}
+
+.navegação li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: gray;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    text-align: center;
+    margin: auto;
+    width: 800px
+}
+
+p {
+    line-height: 30px;
+}    
+
+h1 {
+    color: rgb(14, 14, 63);
+    font-size: 35px;
+    margin-top: 80px;
+}
+
+.roupa {
+    text-align: center;
+    margin-top:70px;
+}
+
+.box {
+    width: 280px;
+    display: inline-block;
+}
+
+.box > h2 {
+    color: rgb(14, 14, 63);
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.box > p {
+    color: gray;
+    margin-top: 0;
+}
+
+.informação {
+    background-image: url(imagens/bg_detalhe.png);
+    height: 450px;
+    width: 1000px;
+    margin: auto;
+    background-position: left center;
+    background-size: cover;
+}
+
+.informação > h1 {
+    color: white;
+    margin: 40px;
+    padding-top: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.informação > p {
+    color: white;
+    margin: 40px;
+    margin-right: 50%;
+    font-size: 15px;
+}
+
+.contato {
+    color: rgb(14, 14, 63);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.mapa {
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(14,14,63);
+    color: white;
+    margin-top: 25px;
+    
+}
+
+footer > p {
+    margin: 0;
+}
+
+
+
+
